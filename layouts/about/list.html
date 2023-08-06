@@ -20,16 +20,22 @@
           <h3>{{ .Site.Data.about.bioTitle }}</h3>
           <p> {{ .Site.Data.about.bioDescription | markdownify }}</p>
           </p>
-          <h3>I am a social person</h3>
+          <h3></h3>
           <ul class="soicel-icon">
-            <li> <a href="https://www.facebook.com/{{ .Site.Params.facebookUsername }}"><i
-                  class="fa fa-facebook"></i></a></li>
-            <li> <a href="https://www.facebook.com/{{ .Site.Params.twitterUsername }}"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li> <a href="https://www.facebook.com/{{ .Site.Params.instaUsername }}"><i class="fa fa-instagram"></i></a>
-            </li>
-            <li><a href="https://www.facebook.com/{{ .Site.Params.linkedinUsername }}"><i
-                  class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/{{ .Site.Params.youtubeChannelId }}">
+              <i class="fa fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/{{ .Site.Params.githubUsername }}">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/{{ .Site.Params.linkedinUsername }}">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
           </ul>
         </div>
       </div>
